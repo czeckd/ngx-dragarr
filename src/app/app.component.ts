@@ -7,7 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	dwarves = [ 'Dwalin', 'Balin', 'Kili', 'Fili', 'Dori', 'Nori', 'Ori', 'Oin', 'Gloin', 'Bifur', 'Bofur', 'Bombur', 'Thorin' ];
-	dwarfs = [  'Doc', 'Grumpy', 'Happy', 'Sleepy', 'Bashful', 'Sneezy', 'Dopey' ];
+	dwarfs = [
+		{ name: 'Doc' },
+		{ name: 'Grumpy' },
+		{ name: 'Happy' },
+		{ name: 'Sleepy' },
+		{ name: 'Bashful' },
+		{ name: 'Sneezy' },
+		{ name: 'Dopey' }
+	];
 
 	canDrag = false;
 

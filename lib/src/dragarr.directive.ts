@@ -83,7 +83,7 @@ export class DragarrDirective implements OnChanges {
 			const dropIdx = this.dragarr[1];
 			const arr = this.dragarr[2];
 			if (dropIdx !== dragIdx) {
-				arr.splice(dropIdx, 0, arr.splice(dragIdx, 1));
+				arr.splice(dropIdx, 0, arr.splice(dragIdx, 1)[0]);
 				this.dropped.emit(arr);
 			}
 			this.renderer.removeClass(this.el.nativeElement, this.dragOverClass);

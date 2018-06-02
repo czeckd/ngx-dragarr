@@ -4,7 +4,7 @@
   "description": "Angular 6 directive to rearange array order via drag-and-drop.",
   "author": "David Czeck",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/czeckd/ngx-dragarr.git"

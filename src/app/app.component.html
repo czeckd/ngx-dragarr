@@ -6,7 +6,7 @@
 	</ul>
 
 	<ul>
-		<li *ngFor="let d of dwarfs; let i = index" [dragarr]="['dwarfs', i, dwarfs]" (dropped)="onDrop($event)" [draggable]="canDrag">{{d}}</li>
+		<li *ngFor="let d of dwarfs; let i = index" [dragarr]="['dwarfs', i, dwarfs]" (dropped)="onDrop($event)" [draggable]="canDrag">{{d.name}}</li>
 	</ul>
 
 	<form>
