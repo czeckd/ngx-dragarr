@@ -1,0 +1,15 @@
+<div>
+	<h1>dragarr demo</h1>
+
+	<ul>
+		<li *ngFor="let d of dwarves; let i = index" [dragarr]="['dwarves', i, dwarves]" (dropped)="onDrop($event)" draggable="true">{{d}}</li>
+	</ul>
+
+	<ul>
+		<li *ngFor="let d of dwarfs; let i = index" [dragarr]="['dwarfs', i, dwarfs]" (dropped)="onDrop($event)" [draggable]="canDrag">{{d}}</li>
+	</ul>
+
+	<form>
+		<label><input type="checkbox" [(ngModel)]="canDrag" name="cdrg"> Bottom list draggable?</label>
+	</form>
+</div>
