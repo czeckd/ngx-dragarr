@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/package.schema.json",
-  "name": "ngx-dragarr",
+  "name": "@czeckd/ngx-dragarr",
   "description": "Angular 6 directive to rearange array order via drag-and-drop.",
   "author": "David Czeck",
   "license": "MIT",
