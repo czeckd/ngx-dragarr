@@ -1,0 +1,27 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "ngx-dragarr",
+  "description": "Angular 6 directive to rearange array order via drag-and-drop.",
+  "author": "David Czeck",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czeckd/ngx-dragarr.git"
+  },
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "@angular/common": "^6.0.0",
+    "detect-browser" : "^2.5.1",
+    "rxjs": "^6.0.0"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts",
+      "umdModuleIds": {
+         "detect-browser" : "detect"
+      }
+    },
+    "dest": "../dist"
+  }
+}
