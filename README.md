@@ -6,7 +6,7 @@ NgxDragarr
 ```
 $ npm i --save @czeckd/ngx-dragarr
 ```
-In addition to the normal Angular packages, NgxDraggarr also has a peer dependency on [detect-browser](https://www.npmjs.com/package/detect-browser) to detect IE. Depending on the version 
+In addition to the normal Angular packages, NgxDragarr also has a peer dependency on [detect-browser](https://www.npmjs.com/package/detect-browser) to detect IE. Depending on the version 
 of detect-browser, the package [os](https://www.npmjs.com/package/os) may also be needed as a dev-dependency.
 
 ## Integration
@@ -64,7 +64,7 @@ The directive will add two styles to the DOM: `.dragarr-over` and `.dragarr-drag
     dragClass="customDrag" dragOverClass="customDragOver">{{d}}</li>
 </ul>
 ```
-### Background
+## Background
 NgxDragarr was inspired by [ng-drag-drop-list](https://github.com/yairtawil/ng-drag-drop-list).
 
 ## License
