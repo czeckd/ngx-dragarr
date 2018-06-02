@@ -1,6 +1,6 @@
 {
   "name": "ngx-dragarr",
-  "description": "Angular 6 directive to rearange array order via drag-and-drop.",
+  "description": "Angular 6 directive that enables drag-and-drop to reorder array items.",
   "author": "David Czeck",
   "license": "MIT",
   "version": "1.0.1",
