@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40czeckd%2Fngx-dragarr.svg)](https://badge.fury.io/js/%40czeckd%2Fngx-dragarr)
+
 NgxDragarr
 =========
 **NgxDragarr** is an Angular 6 directive that provides a means to re-order an array using drag-and-drop.
