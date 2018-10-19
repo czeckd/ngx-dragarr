@@ -2,7 +2,7 @@
 
 NgxDragarr
 =========
-**NgxDragarr** is an Angular 6 directive that provides a means to re-order an array using drag-and-drop.
+**NgxDragarr** is an Angular 6+ directive that provides a means to re-order an array using drag-and-drop.
 
 ## How to use?
 ```

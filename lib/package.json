@@ -1,17 +1,17 @@
 {
   "$schema": "../../node_modules/ng-packagr/package.schema.json",
   "name": "@czeckd/ngx-dragarr",
-  "description": "Angular 6 directive that enables drag-and-drop to reorder array items.",
+  "description": "Angular 6+ directive that enables drag-and-drop to reorder array items.",
   "author": "David Czeck",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/czeckd/ngx-dragarr.git"
   },
   "peerDependencies": {
-    "@angular/core": "^6.0.0",
-    "@angular/common": "^6.0.0",
+    "@angular/core": ">=6.0.0",
+    "@angular/common": ">=6.0.0",
     "detect-browser" : "^3.0.0",
     "rxjs": "^6.0.0"
   },
